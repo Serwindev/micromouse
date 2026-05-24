@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0ee22f56-8911-4ab1-8589-5c27e1e7c66c")
+	(paper "A4")
+	(title_block
+		(title "Micromouse v1.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
