@@ -4654,7 +4654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 183.8452 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4854,7 +4854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 85.3948 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5740,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 93.6752 105.41 0)
 			(hide yes)
 			(show_name no)
