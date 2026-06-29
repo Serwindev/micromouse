@@ -2961,6 +2961,18 @@
 		(uuid "129635fd-bc10-4a82-b1cf-3ac83beeeef1")
 	)
 	(junction
+		(at 185.42 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a45310-91fd-4bb4-9539-e15ba1ce12a7")
+	)
+	(junction
+		(at 185.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31045eea-3d93-4ea2-9c52-e0a24bdeaba7")
+	)
+	(junction
 		(at 92.71 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3021,12 +3033,6 @@
 		(uuid "a4e97cd7-4af4-46d8-bfb1-91c0c5730283")
 	)
 	(junction
-		(at 184.15 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba9a4c60-d182-44c3-93df-c3fc3ab884fb")
-	)
-	(junction
 		(at 236.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3037,12 +3043,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3461f10-1f3e-4f60-8dd0-2e93d6a282bf")
-	)
-	(junction
-		(at 184.15 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd2dc5de-f3ec-448f-b82b-cc0e93663f92")
 	)
 	(junction
 		(at 44.45 151.13)
@@ -3069,10 +3069,6 @@
 	(no_connect
 		(at 111.76 88.9)
 		(uuid "2871c37d-ac11-4e64-9746-ae093d129d69")
-	)
-	(no_connect
-		(at 105.41 93.98)
-		(uuid "2f1d7e9c-e527-4026-b379-f8422e3893db")
 	)
 	(no_connect
 		(at 111.76 78.74)
@@ -3282,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 184.15 69.85)
+			(xy 181.61 69.85) (xy 185.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 69.85) (xy 187.96 69.85)
+			(xy 185.42 69.85) (xy 189.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 77.47) (xy 187.96 77.47)
+			(xy 185.42 77.47) (xy 189.23 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3852,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eec9b1-3d42-4647-b2cb-6c72c7a38fd0")
+	)
+	(wire
+		(pts
 			(xy 156.21 69.85) (xy 167.64 69.85)
 		)
 		(stroke
@@ -4052,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 184.15 77.47)
+			(xy 181.61 77.47) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4281,7 +4287,7 @@
 		(uuid "12bea101-3633-457b-8ce8-e77428f76798")
 	)
 	(label "GND"
-		(at 187.96 69.85 0)
+		(at 189.23 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,6 +4377,16 @@
 		(uuid "2e0f35a1-8d4c-4fc3-b255-0c985b0eb381")
 	)
 	(label "IR EM"
+		(at 88.9 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e8490c3-d205-4ece-8936-aaca2602c15c")
+	)
+	(label "IR EM"
 		(at 223.52 92.71 180)
 		(effects
 			(font
@@ -4421,7 +4437,7 @@
 		(uuid "41bdf9dc-c261-47cd-9892-fdac60855b23")
 	)
 	(label "BAT +"
-		(at 187.96 77.47 0)
+		(at 189.23 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 238.252 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -5168,7 +5184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 225.552 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOT95P280X125-3N"
 			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5333,7 +5349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 60.452 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -5414,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 42.672 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -5796,7 +5812,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.15 73.66 0)
+		(at 185.42 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5806,7 +5822,7 @@
 		(dnp no)
 		(uuid "3937aaad-bba9-4cb6-86ba-96e217db568f")
 		(property "Reference" "C3"
-			(at 185.166 66.294 0)
+			(at 186.436 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5817,7 +5833,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 185.166 68.834 0)
+			(at 186.436 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5828,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 185.1152 77.47 0)
+			(at 186.3852 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,7 +5855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 73.66 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5866,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 184.15 73.66 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 237.998 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -6201,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 26.162 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -7018,7 +7034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 262.382 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -7180,7 +7196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 76.962 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 250.952 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7589,7 @@
 		(dnp no)
 		(uuid "f87f84c9-b660-4581-8483-5e3bc31943fe")
 		(property "Reference" "C1"
-			(at 93.726 94.234 0)
+			(at 89.916 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7675,7 +7691,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 229.87 94.488 90)
 			(hide yes)
 			(show_name no)
