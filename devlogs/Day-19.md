@@ -51,3 +51,9 @@ That's all for today
 - Finished the whole PCB design
 - Sent the design in discord and slack for review and feedback
 - Exported it into gerber and enquired the price for PCB manufacture
+
+
+
+X7R dielectric
+
+V-rated electrolytic capacitors
