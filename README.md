@@ -102,6 +102,16 @@ Instagram: [@serwin.dev](https://www.instagram.com/serwin.dev)
 
 ---
 
+## How to build?!
+
+- Step 1: Check whether you have all the components
+- Step 2: Order PCB and wait -- take some rest
+- Step 3: Quickly assemble all the parts
+- Step 4: Run firmware and GOOO!!!!
+
+---
+
+
 ### Future works
 
 - Once the build is successful, the firmware of the project will commence.
