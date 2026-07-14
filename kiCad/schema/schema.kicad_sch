@@ -3268,19 +3268,19 @@
 		(at 185.42 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13a45310-91fd-4bb4-9539-e15ba1ce12a7")
-	)
-	(junction
-		(at 185.42 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31045eea-3d93-4ea2-9c52-e0a24bdeaba7")
+		(uuid "2b04cd50-f114-4b34-b9b6-874db5e89217")
 	)
 	(junction
 		(at 92.71 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ead5753-eb51-4f52-8597-4ed663ed4246")
+	)
+	(junction
+		(at 185.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6fdd1e-137a-42d0-a4f8-b03cf3de00c9")
 	)
 	(junction
 		(at 62.23 151.13)
@@ -3498,6 +3498,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10af5567-e498-4ef3-a203-9976806fb760")
+	)
+	(wire
+		(pts
 			(xy 83.82 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -3668,16 +3678,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 189.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eead4af-d5de-439a-8b3a-8db5386661c1")
-	)
-	(wire
-		(pts
 			(xy 181.61 72.39) (xy 181.61 69.85)
 		)
 		(stroke
@@ -3745,16 +3745,6 @@
 			(type default)
 		)
 		(uuid "4f2b1bec-c82e-4cf7-a901-9931c294b10d")
-	)
-	(wire
-		(pts
-			(xy 185.42 77.47) (xy 189.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f2efcff-6b60-4b66-b3cb-a78f95812662")
 	)
 	(wire
 		(pts
@@ -4288,6 +4278,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 77.47) (xy 185.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be17b8af-9bee-42b6-bd78-0f8344fbc684")
+	)
+	(wire
+		(pts
 			(xy 181.61 74.93) (xy 181.61 77.47)
 		)
 		(stroke
@@ -4627,7 +4627,7 @@
 		(uuid "12bea101-3633-457b-8ce8-e77428f76798")
 	)
 	(label "GND"
-		(at 189.23 69.85 0)
+		(at 189.23 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4787,7 +4787,7 @@
 		(uuid "41bdf9dc-c261-47cd-9892-fdac60855b23")
 	)
 	(label "BAT +"
-		(at 189.23 77.47 0)
+		(at 189.23 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5370,7 +5370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 ohm"
+		(property "Value" "220 ohm"
 			(at 241.808 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 ohm"
+		(property "Value" "220 ohm"
 			(at 229.108 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7388,7 +7388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 ohm"
+		(property "Value" "220 ohm"
 			(at 265.43 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 ohm"
+		(property "Value" "220 ohm"
 			(at 254 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
