@@ -10,6 +10,8 @@ The dimension of Zacch is 90mm x 127mm (3.54 x 5.00 inches). Compared to other m
 
 The Project Zacch v1 is a project made for the event ["Fallout"](https://fallout.hackclub.com/) conducted by [HackClub](https://hackclub.com/).
 
+![alt text](assets/poster.png)
+
 ---
 
 ## BOM
