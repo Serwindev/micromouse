@@ -17,3 +17,4 @@ sno,product name,description,Quantity,link,unit price,amount,Running total,
 16,Male headers,To mount components,2,https://makerbazar.in/products/berg-strip-40-pins?variant=49811925532912&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=17426677322&gbraid=0AAAAACLxaAblJEnB5dLql7-x3ZBpJzfe3&gclid=CjwKCAjwmdLSBhANEiwAkREMNz77SH8W3c11Vlf4g-hZFOluHlT7KyqQvG2HieT2qgm2LeFkTQocnRoCc5MQAvD_BwE,25,50,2955.47,
 17,Tactile switch,To actually make mouse move,1,https://makerbazar.in/products/small-push-button-switch?srsltid=AfmBOoqmTbENfx2a-pJnI3aoowbEo9liCWUeOjVfWND0_L68pnGFyOcG,20,20,2975.47,
 18,PCB,Acts as a chassis as well as electrical circuit, 1, wherever you prefer, 3500, 3500, 6475.47
+19,3d print, Mounts for motors, 2, wherever you prefer (use assets/CAD_design/Motot_mount.stp), 500, 1000, 7475.47
